@@ -9,15 +9,31 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js">.</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <title>A Guide to Video Games</title>
+    <title>A Guide to Playing Video Games</title>
   </head>
   <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+    <!--Will show up on smaller screen-->
+    <div class="phone">
+      <section>
+        <div class="outside">
+          <div class="out-screen">
+            <div class="screen">
+              <div class="screen-start">
+                <h2>Welcome</h2>
+                <h3>user4152</h3>
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--Navbar for page-->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="top">
       <div class="user">
           <i class="material-icons">account_circle</i>
           <div class="player">
-            Player <br> #000000
+            user4152 <br> #986296
           </div>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -25,12 +41,13 @@
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">First Person Shooter</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Adventure Games</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Sports Games</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Role Playing Games</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">???</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="fps.html">First Person Shooter</a></li>
+          <li class="nav-item"><a class="nav-link" href="adventure.html">Adventure</a></li>
+          <li class="nav-item"><a class="nav-link" href="sports.html">Sports</a></li>
+          <li class="nav-item"><a class="nav-link" href="rpg.html">Role Playing</a></li>
+          <li class="nav-item"><a class="nav-link" href="racing.html">Racing</a></li>
+          <li class="nav-item"><a class="nav-link" href="distraction.html">Surprise</a></li>
         </ul>
       </div>
       <div class="essential">
@@ -40,9 +57,8 @@
         </div>
       </div>
     </nav>
-    <!--Page main content-->
+    <!--Main content of page-->
     <div class="content">
-      <!--Top images scrolling-->
       <div class="scroll">
         <ul class="scroll-content">
           <li><img src="game-img/apex.png" alt=""></li>
@@ -82,68 +98,71 @@
           <li><img src="game-img/gta.png" alt=""></li>
         </ul>
       </div>
-      <!--Welcoming-->
-      <div class="greeting">
-        <div class="logo">
-          <img src="img/control.jpg" alt="Profile picture">
-        </div>
-        <div class="intro">
-          <div class="title">
-            <span>Launch</span><br>
-            <span>Site</span>
+      <!--Information for the page-->
+      <article>
+        <div class="greeting">
+          <div class="logo">
+            <img src="img/controller.jpg" alt="Profile picture">
           </div>
-          <div class="information">
-            <div class="wave">
-              <img src="img/waving.png" alt="Icon of person waving">
+          <div class="intro">
+            <div class="title">
+              <span>Launch</span><br>
+              <span>Site</span>
             </div>
-            <div class="welcoming">
-              <span>Welcom User</span><br>
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</span>
+            <div class="information">
+              <div class="wave">
+                <img src="img/waving.png" alt="Icon of person waving">
+              </div>
+              <div class="welcoming">
+                <span>Welcom user4152</span><br>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
+      </article>
       <!--Images with links to pages-->
-      <div class="categories rows">
-        <div class="columns">
-          <img src="img/default.png" alt="Image w/ link to FPS Page">
-          <img src="img/default.png" alt="Image w/ link to Adventure Games Page">
-          <img src="img/default.png" alt="Image w/ link to Sports Games Page">
-          <img src="img/default.png" alt="Image w/ link to Role Playing Games Page">
-          <img src="img/default.png" alt="Image w/ link to Surprise Page">
+      <nav class="images">
+        <div class="medium">
+          <a href="fps.html"><img src="img/default.png" alt="Image w/ link to FPS Page"></a>
         </div>
-      </div>
-    </div>
-
-    <!--Footer-->
-    <div class="footer">
-      <div class="footer-content social">
-        <ul>
-          <li>
-            <a href="#"><img src="img/youtube.png" alt=""></a>
-          </li>
-          <li>
-            <a href="#"><img src="img/twitter.png" alt=""></a>
-          </li>
-          <li>
-            <a href="#"><img src="img/insta.png" alt=""></a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="footer-content bottom-logo">
-        <img src="img/pixel.png" alt="">
-      </div>
-
-      <div class="footer-content names">
-        <ul>
-          <li><a href="#">Arthur Soto</a></li>
-          <li><a href="#">Joe Fulton</a></li>
-          <li><a href="#">Daniel Bonilla</a></li>
-          <li><a href="#">Stephanie Nava</a></li>
-        </ul>
-      </div>
+        <div class="medium">
+          <a href="adventure.html"><img src="img/default.png" alt="Image w/ link to Adventure Games Page"></a>
+        </div>
+        <div class="medium">
+          <a href="sports.html"><img src="img/default.png" alt="Image w/ link to Sports Games Page"></a>
+        </div>
+        <div class="medium">
+          <a href="rpg.html"><img src="img/default.png" alt="Image w/ link to Role Playing Games Page"></a>
+        </div>
+        <div class="medium">
+          <a href="racing.html"><img src="img/default.png" alt="Image w/ link to Racing Games Page"></a>
+        </div>
+        <div class="medium">
+          <a href="distraction.html"><img src="img/default.png" alt="Image w/ link to Surprise Page"></a>
+        </div>
+      </nav>
+      <!--Info at bottom-->
+      <footer class="bottom">
+        <div class="socials left-text">
+          <ul>
+            <li><a href="#"><img src="img/youtube.png" alt=""></a></li>
+            <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="img/insta.png" alt=""></a></li>
+          </ul>
+        </div>
+        <div class="bottom-img middle-image">
+          <img src="img/pixel.png" alt="">
+        </div>
+        <div class="names right-text">
+          <ul>
+            <li><a href="#">Arthur Soto</a></li>
+            <li><a href="#">Joe Fulton</a></li>
+            <li><a href="#">Daniel Bonilla</a></li>
+            <li><a href="#">Stephanie Nava</a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
