@@ -234,7 +234,7 @@ nav.images{
 }
 
 .welcoming span{
-  font-size: 1.5vh;
+  font-size: 16px;
 }
 
 /*Styling for Footer*/
@@ -336,6 +336,10 @@ footer {
   .information{
     margin-left: -80px;
   }
+
+  .welcoming span{
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -345,5 +349,11 @@ footer {
 
   .screen{
     height: 25vh;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .welcoming span{
+    font-size: 3vw;
   }
 }
