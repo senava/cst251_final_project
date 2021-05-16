@@ -18,70 +18,6 @@ body{
   background-attachment: fixed;
 }
 
-/*Gameboy screen*/
-.phone{
-  display: none;
-}
-
-section{
-  height: 100vh;
-}
-
-.outside{
-  width: 100%;
-  height: 100%;
-  background: #b1b0ae;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.out-screen{
-  border: 2px solid #908f8f;
-  background-color: #908f8f;
-  border-radius: 0px 0px 90px 0px;
-  max-width: 90vw;
-  width: 100%;
-  margin: 40px auto auto auto;
-  height: 50vh;
-  position: relative;
-}
-
-.screen{
-  border: 2px solid #4c4c4c;
-  background-color: #96ab64;
-  filter: drop-shadow(1px 5px 10px black);
-  max-width: 55vw;
-  width: 100%;
-  height: 35vh;
-  position: absolute;
-  right: 0;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.screen-start{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-}
-
-.screen-start .material-icons{
-  font-size: 40px;
-}
-
-/*Navigation Style*/
-#top{
-  background-color: #066363;
-}
-
 /*Styling for Images underneath navbar*/
 .scroll{
   width: 100vw;
@@ -156,21 +92,6 @@ article, .images{
   padding-bottom: 2.5rem;
 }
 
-.user, .essential{
-  display: flex;
-  align-items: center;
-}
-
-.user .material-icons{
-  font-size: 40px;
-  transform: translateX(-5px);
-}
-
-.essential .material-icons{
-  font-size: 30px;
-  -webkit-transform: rotate(90deg) translateY(5px);
-}
-
 nav.images{
   display: flex!important;
   flex-direction: row;
@@ -193,6 +114,12 @@ nav.images{
   background-color: black;
   width: 210px;
   height: 210px;
+}
+
+.medium img{
+  height: 200px;
+  width: 210px;
+  object-fit: fill;
 }
 
 .logo img{
@@ -278,16 +205,6 @@ footer {
 }
 
 /*Navigation Bar Media Query*/
-
-#collapsibleNavbar{
-  justify-content: space-around;
-}
-
-@media screen and (max-width: 990px) {
-  .essential{
-    display: none;
-  }
-}
 
 @media screen and (max-width: 500px) {
   .images img{

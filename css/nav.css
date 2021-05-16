@@ -1,0 +1,29 @@
+
+#top{
+  background-color: #066363;
+}
+
+#collapsibleNavbar{
+  justify-content: space-around;
+}
+
+.user, .essential{
+  display: flex;
+  align-items: center;
+}
+
+.user .material-icons{
+  font-size: 40px;
+  transform: translateX(-5px);
+}
+
+.essential .material-icons{
+  font-size: 30px;
+  -webkit-transform: rotate(90deg) translateY(5px);
+}
+
+@media screen and (max-width: 990px) {
+  .essential{
+    display: none;
+  }
+}
