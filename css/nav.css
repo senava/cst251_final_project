@@ -7,6 +7,14 @@
   justify-content: space-around;
 }
 
+.nav-item a{
+  color: #afafaf!important;
+}
+
+.nav-item a:hover{
+  color: white!important;
+}
+
 .user, .essential{
   display: flex;
   align-items: center;
