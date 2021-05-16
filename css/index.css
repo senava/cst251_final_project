@@ -179,6 +179,13 @@ nav.images{
   font-family: 'Exo', sans-serif;
 }
 
+figcaption{
+  color: greenyellow!important;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Gugi', cursive, sans-serif;
+}
+
 /*Styling for Footer*/
 footer {
   padding: 15px;
@@ -254,6 +261,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 465px) {
+  .welcoming span{
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .logo img{
     width: 150px;
@@ -272,10 +285,6 @@ footer {
 
   .information{
     margin-left: -80px;
-  }
-
-  .welcoming span{
-    font-size: 10px;
   }
 }
 
