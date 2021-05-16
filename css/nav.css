@@ -15,6 +15,10 @@
   color: white!important;
 }
 
+.navbar-nav{
+  font-family: 'Exo', sans-serif;
+}
+
 .user, .essential{
   display: flex;
   align-items: center;
