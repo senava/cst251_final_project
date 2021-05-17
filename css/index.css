@@ -180,7 +180,9 @@ nav.images{
 }
 
 figcaption{
-  color: greenyellow!important;
+  color: #024bd4!important;
+  text-shadow: 1px 0px 12px black;
+  background-color: #cbf9d0;
   text-align: center;
   font-size: 12px;
   font-family: 'Gugi', cursive, sans-serif;

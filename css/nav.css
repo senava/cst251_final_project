@@ -16,7 +16,7 @@
 }
 
 .navbar-nav{
-  font-family: 'Exo', sans-serif;
+  font-family: 'Exo', sans-serif!important;
 }
 
 .user, .essential{
@@ -27,6 +27,10 @@
 .user .material-icons{
   font-size: 40px;
   transform: translateX(-5px);
+}
+
+.player, .time{
+  font-family: 'Raleway', sans-serif;
 }
 
 .essential .material-icons{
