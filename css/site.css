@@ -1,22 +1,23 @@
 #title1 {
   margin-top: 35px;
-   margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 #title2 {
   margin-top: 35px;
-   margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 body {
-   text-shadow: red;
+  text-shadow: red;
+  background-color: black!important;
 }
 
 p, footer {
-    margin: 20px;
+  margin: 20px;
 }
 
 li{
-    line-height: 35px;
-    font-size: 20px;
+  line-height: 35px;
+  font-size: 20px;
 }

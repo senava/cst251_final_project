@@ -10,7 +10,7 @@ img{
 }
 
 body{
-  background-color: white!important;
+  background-color: black!important;
   background-image: url(../img/mystical.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,51 +188,6 @@ figcaption{
   font-family: 'Gugi', cursive, sans-serif;
 }
 
-/*Styling for Footer*/
-footer {
-  padding: 15px;
-  margin-top: 50px;
-  display: flex!important;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #101c1e;
-}
-
-.bottom li{
-  list-style: none;
-  padding: 5px;
-}
-
-.socials{
-  margin-left: 20px;
-}
-
-.socials ul{
-  display: flex;
-}
-
-.socials img{
-  width: 40px;
-}
-
-.names{
-  text-align: end;
-  margin-right: 20px;
-  font-family: 'Zen Dots', cursive, sans-serif;
-}
-
-.names a:hover{
-  color: #D92A1A!important;
-}
-
-#left-side{
-  display: flex!important;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
 /*Navigation Bar Media Query*/
 
 @media screen and (max-width: 500px) {
@@ -242,14 +197,6 @@ footer {
 }
 
 @media screen and (max-width: 550px) {
-  footer{
-    justify-content: space-evenly;
-  }
-
-  .names{
-    text-align: center;
-  }
-
   .phone{
     display: contents;
   }
