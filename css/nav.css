@@ -1,0 +1,45 @@
+
+#top{
+  background-color: #066363;
+}
+
+#collapsibleNavbar{
+  justify-content: space-around;
+}
+
+.nav-item a{
+  color: #afafaf!important;
+}
+
+.nav-item a:hover{
+  color: white!important;
+}
+
+.navbar-nav{
+  font-family: 'Exo', sans-serif!important;
+}
+
+.user, .essential{
+  display: flex;
+  align-items: center;
+}
+
+.user .material-icons{
+  font-size: 40px;
+  transform: translateX(-5px);
+}
+
+.player, .time{
+  font-family: 'Raleway', sans-serif;
+}
+
+.essential .material-icons{
+  font-size: 30px;
+  -webkit-transform: rotate(90deg) translateY(5px);
+}
+
+@media screen and (max-width: 990px) {
+  .essential{
+    display: none;
+  }
+}
