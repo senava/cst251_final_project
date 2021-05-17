@@ -8,6 +8,10 @@ img{
   width: 100px;
 }
 
+body{
+  background-color: black!important;
+}
+
 /* Styling for Navbar*/
 .navbar{
   background: cornflowerblue;

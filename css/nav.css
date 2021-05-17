@@ -17,6 +17,7 @@
 
 .navbar-nav{
   font-family: 'Exo', sans-serif!important;
+  align-items: initial!important;
 }
 
 .user, .essential{
